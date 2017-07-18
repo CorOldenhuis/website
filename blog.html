@@ -23,6 +23,29 @@
 
   </head>
   <body>
+
+    <!-- load facebook comments js -->
+    <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1712865502076953',
+        xfbml      : true,
+        version    : 'v2.9'
+      });
+      FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+
+
     <!-- Navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -77,10 +100,14 @@
               <img class="img-responsive" src="img/blog/live.jpg" alt="">
               <hr>
               <!-- Post Content -->
-              <p class="lead">Oke ik had gezegd dat ik maar 1 x per week een blog zou schrijven. Maar vandaag is m'n site live gegaan dus reden voor een extra blog!</p>
-              <p>bloed zweet en tranen....nou ja zweet?, bloed? en tranen eigenlijk ook niet maar wel veel moeite, hard werken en wat hulp heeft er voor gezorgd dat mijn website vandaag af genoeg was om live te gaan. Nee hij is nog niet helemaal klaar, maar ja wanneer is hij dat dan wel? Ik ben iemand die altijd vol zit met ideeën en heel veel dingen mooi vind, dus mijn site zal wel nooit helemaal af zijn.</p>
-              <p>Ruim twee maand geleden had ik nog nooit één regel code geschreven, ik had al vaker website's ontworpen maar die werden dan door anderen gebouwd. Zelf bouwen geeft toch meer voldoening dan uitbesteden. Mijn toolbox is een stukje uitgebreider geworden, al ben ik nog steeds aan het leren. hoe meer ik leer hoe meer ik erachter kom wat er mogelijk is en dat ik meer niet weet dan wel. Maar inspirerend is het wel!</p>
-              <p>wil je reageren op mn blogs/vlogs? Tja dat kan nog niet, deze functie zal ik in de toekomst inbouwen. </p><p class="text-bold">So be sure to check back in soon! in the meanwhile, write me an <a class="a-blog" href="mailto:info@coroldenhuis.nk">email</a>!</p>
+                  <p class="lead">Oke ik had gezegd dat ik maar 1 x per week een blog zou schrijven. Maar vandaag is m'n site live gegaan dus reden voor een extra blog!</p>
+                  <p>bloed zweet en tranen....nou ja zweet?, bloed? en tranen eigenlijk ook niet maar wel veel moeite, hard werken en wat hulp heeft er voor gezorgd dat mijn website vandaag af genoeg was om live te gaan. Nee hij is nog niet helemaal klaar, maar ja wanneer is hij dat dan wel? Ik ben iemand die altijd vol zit met ideeën en heel veel dingen mooi vind, dus mijn site zal wel nooit helemaal af zijn.</p>
+                  <p>Ruim twee maand geleden had ik nog nooit één regel code geschreven, ik had al vaker website's ontworpen maar die werden dan door anderen gebouwd. Zelf bouwen geeft toch meer voldoening dan uitbesteden. Mijn toolbox is een stukje uitgebreider geworden, al ben ik nog steeds aan het leren. hoe meer ik leer hoe meer ik erachter kom wat er mogelijk is en dat ik meer niet weet dan wel. Maar inspirerend is het wel!</p>
+                  <hr>
+                <div id="blog1" class="fb-comments" data-href="http://coroldenhuis.nl/blog.html/#blogpost1" data-width="500" data-numposts="5"></div>
+                <div
+                  class="fb-like" data-share="true" data-width="450" data-show-faces="true">
+                </div>
             </div>
             </section>
           </div>
@@ -108,7 +135,12 @@
             <p>De ICT is toch saai? Nee joh! Het is een wereld die ontzettend creatief is en die nooit stil staat. Je bent dus ook nooit klaar met leren. Denk eens terug aan je eigen klaslokaal en vergelijk die met de mijne. Dat zegt genoeg toch?</p>
 
             <p>Nog 2 weken en dan is mijn bootcamp afgelopen, maar eigenlijk begint het dan pas. De Gorilla's hebben mij gevraagd om aan te blijven als coach/instructor. Een aanbod waar ik volmondig ja op heb gezegd. Ik heb de afgelopen 3 maand mensen zien groeien tot zelfverzekerde, getalenteerde mensen die de ICT wereld op de kop gaan zetten. Dat geeft een enorme kick, en die kick wil ik blijven ervaren.</p>
+            <hr>
+            <div id="blog2" class="fb-comments" data-href="http://coroldenhuis.nl/blog.html#blogpost2" data-width="500" data-numposts="5"></div>
 
+            <div
+              class="fb-like" data-share="true" data-width="450" data-show-faces="true">
+            </div>
           </div>
 
           <section id="first-post">
@@ -127,7 +159,11 @@
               <p class="lead">Good coders copy, great coders steal. En om maar meteen met de deur in huis te vallen, het idee om een blog te beginnen heb ik gestolen van mijn collega <a class="a-blog" href="http://webdevpro.nl/">Ramon Horst</a>.</p>
               <p>Het gebruiken van iemand zijn idee of code en het aanpassen naar iets van jezelf is voor developers heel normaal. Ik weet dan ook zeker dat hij mijn poging wel kan waarderen. In tegenstelling tot Ramon zal ik niet dagelijks maar wekelijks een blog of vlog publiceren. Waar ik over ga schrijven? Wat er maar in me op komt! En wees gewaarschuwd er komen soms rare dingen in me op.</p>
               <p>Een paar kernwoorden om me beter te leren kennen. Graphic designer, junior UI-UX developer, mafkees, Apple freak, getrouwd, wannebe coach, cola verslaafd, vader, doorzetter, workahollic, passievol, creatief, CodeGorilla, BMX-monteur, duiker, levensgenieter, idioot, hart op m'n tong.</p>
-              <p>wil je reageren op mn blogs/vlogs? Tja dat kan nog niet, deze functie zal ik in de toekomst inbouwen. </p><p class="text-bold">So be sure to check back in soon! in the meanwhile, write me an <a class="a-blog" href="mailto:info@coroldenhuis.nk">email</a>!</p>
+              <hr>
+              <div id="blog3" class="fb-comments" data-href="http://coroldenhuis.nl/blog.html#blogpost3" data-width="500" data-numposts="5"></div>
+              <div
+                class="fb-like" data-share="true" data-width="450" data-show-faces="true">
+              </div>
             </div>
             </section>
           </div>
@@ -162,7 +198,7 @@
         <a class="collega" href="http://nieuw.design/" target="_blank">Bert Leiting</a>
         <a class="collega" href="http://webdevpro.nl/" target="_blank">Ramon Horst</a>
         <a class="collega" href="http://webdevpro.nl/bjorndejong/" target="_blank">Bjorn de Jong</a>
-        <a class="collega" href="#" target="_blank">Harco Wittendorp</a>
+        <a class="collega" href="http://fimyco.nl/harcowittendorp/" target="_blank">Harco Wittendorp</a>
       </div>
     </footer>
 
