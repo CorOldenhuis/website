@@ -4,7 +4,7 @@
 		$email = $_POST['email'];
 		$message = $_POST['message'];
 		$from = 'Demo Contact Form';
-		$to = 'coroldenhuis2msn.com';
+		$to = 'coroldenhuis@msn.com';
 		$subject = 'Message from Contact Demo ';
 
 		$body ="From: $name\n E-Mail: $email\n Message:\n $message";
@@ -32,5 +32,6 @@ if (!$errName && !$errEmail && !$errMessage ) {
 		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>';
 	}
 }
+	echo $result;
 	}
 ?>

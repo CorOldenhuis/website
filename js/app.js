@@ -8,11 +8,6 @@ sr.reveal('.showcase-left', {
   origin:'top',
   distance:'300px'
 });
-sr.reveal('.showcase-right', {
-  duration: 2000,
-  origin:'right',
-  distance:'300px'
-});
 sr.reveal('.showcase-btn', {
   duration: 2000,
   delay: 1000,
@@ -55,7 +50,8 @@ sr.reveal('.info-right', {
 sr.reveal('.portfolio-header', {
   duration: 2000,
   distance: '300px',
-  origin:'bottom'
+  origin:'bottom',
+  viewFactor: 0.2
 });
 sr.reveal('.portfolio-sub', {
   duration: 2000,
@@ -83,39 +79,3 @@ $(function() {
     }
   });
 });
-
-var bar = new ProgressBar.SemiCircle(container, {
-  strokeWidth: 6,
-  easing: 'easeInOut',
-  duration: 15000,
-  color: '#ed6a46',
-  trailColor: '#eee',
-  trailWidth: 1,
-  svgStyle: null
-});
-
-bar.animate(0.9);  // Number from 0.0 to 1.0
-
-var bar = new ProgressBar.SemiCircle(bar1, {
-  strokeWidth: 6,
-  easing: 'easeInOut',
-  duration: 15000,
-  color: '#ed6a46',
-  trailColor: '#eee',
-  trailWidth: 1,
-  svgStyle: null
-});
-
-bar.animate(0.6);  // Number from 0.0 to 1.0
-
-var bar = new ProgressBar.SemiCircle(bar2, {
-  strokeWidth: 6,
-  easing: 'easeInOut',
-  duration: 15000,
-  color: '#ed6a46',
-  trailColor: '#eee',
-  trailWidth: 1,
-  svgStyle: null
-});
-
-bar.animate(0.4);  // Number from 0.0 to 1.0
