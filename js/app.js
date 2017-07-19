@@ -1,5 +1,3 @@
-document.write ("test test");
-
 window.sr = ScrollReveal();
 sr.reveal('.navbar', {
   duration: 2000,
