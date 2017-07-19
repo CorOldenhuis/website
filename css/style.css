@@ -255,6 +255,17 @@ a:focus, a:hover {
 	background-attachment: fixed;
 	/*margin-bottom: 25px;*/
 }
+
+#parralax-secure {
+	height: 80vh;
+	width: 100vw;
+	background: url(../img/pexels-photo-226232.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	/*margin-bottom: 25px;*/
+}
+
 #info2 {
 	margin: 20px 0 60px 0;
 	height: 400px;
@@ -313,6 +324,21 @@ footer p {
 	color: #ed6a46;
 }
 /*einde footer*/
+
+/*securepage*/
+.phpform {
+	background-color: blue;
+
+}
+.phpname {
+	font-family: "Orbitron";
+	font-size: 1.2em;
+
+}
+. phpbtn {
+
+}
+
 
 
 
