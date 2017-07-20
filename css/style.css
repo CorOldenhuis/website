@@ -259,7 +259,17 @@ a:focus, a:hover {
 #parralax-secure {
 	height: 80vh;
 	width: 100vw;
-	background: url(../img/pexels-photo-226232.jpeg);
+	background: url(../img/pexels-photo-160107.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	/*margin-bottom: 25px;*/
+}
+
+#parralax-einde-secure {
+	height: 80vh;
+	width: 100vw;
+	background: url(../img/pexels-photo-160107.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
