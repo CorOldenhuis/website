@@ -195,6 +195,12 @@ a:focus, a:hover {
 .spacer-md3{
   height: 75px;
 }
+.spacer-md4{
+  height: 25px;
+}
+.spacer-md5{
+  height: 35px;
+}
 /*einde helper clases*/
 
 
@@ -223,6 +229,26 @@ a:focus, a:hover {
 }
 /*einde portfolio*/
 
+.interests {
+	width: 35vw;
+	margin-left: 1vw;
+}
+
+.progress {
+	height: 15px;
+}
+
+.progress-bar {
+	background-color: #ed6a46 !important;
+}
+
+.stuff-secure {
+	margin-bottom: 30px;
+}
+
+.twitter {
+	color: #ed6a46;
+}
 
 /*progressbar*/
 #container {
@@ -256,6 +282,15 @@ a:focus, a:hover {
 	/*margin-bottom: 25px;*/
 }
 
+#subscribe {
+	height: 40vh;
+	width: 100vw;
+	background: url(../img/pexels-photo-164425.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 #parralax-secure {
 	height: 80vh;
 	width: 100vw;
@@ -267,7 +302,7 @@ a:focus, a:hover {
 }
 
 #parralax-einde-secure {
-	height: 80vh;
+	height: 50vh;
 	width: 100vw;
 	background: url(../img/pexels-photo-160107.jpeg);
 	background-repeat: no-repeat;
