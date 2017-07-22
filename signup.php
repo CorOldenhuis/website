@@ -6,8 +6,9 @@
 		$from = 'sign-up Form';
 		$to = 'coroldenhuis@msn.com';
 		$subject = 'Aanvraag login ';
+		$url='http://coroldenhuis.nl';
 
-		$body ="From: $name\n E-Mail: $email\n Message:\n $message";
+		$body ="From: $name\n E-Mail: $email\n Company:\n $company";
 
 		// Check if name has been entered
 		if (!$_POST['name']) {
@@ -19,9 +20,9 @@
 			$errEmail = 'Please enter a valid email address';
 		}
 
-		//Check if message has been entered
+		//Check if company name has been entered
 		if (!$_POST['company']) {
-			$errMessage = 'Please enter your company name';
+			$errCompany = 'Please enter your company name';
 		}
 
 // If there are no errors, send the email
@@ -31,7 +32,11 @@ if (!$errName && !$errEmail && !$errCompany ) {
 	} else {
 		$result='<div class="alert alert-danger">Sorry there was an error sending your sign up form. Please try again later.</div>';
 	}
+} else {
+		$result= $company;
 }
 	echo $result;
+	echo '<META HTTP-EQUIV=REFRESH CONTENT="1; '.$url.'">';
+
 	}
 ?>
