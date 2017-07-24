@@ -133,6 +133,13 @@ a:focus, a:hover {
 .text-center {
 	font-family: "Orbitron";
 }
+
+.text-center-secure {
+	font-family: "Orbitron";
+	font-weight: 600;
+	font-size: 1em;
+}
+
 .panel-title>a {
 	border-bottom: none !important;
 	font-family: "Orbitron";
