@@ -8,7 +8,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	font-family: "Poppins";
+
 }
+
+img.port-align-left {
+  float: left;
+  margin: 0 1em .5em 0;
+}
+
+.portslidertext p {
+	font-family: "Poppins";
+	font-size: 1.1em;
+}
+
 i {
 	margin-top: 14px;
 	margin-left: 5px;
@@ -181,6 +193,13 @@ a:focus, a:hover {
 	color: #000 !important;
 	margin-top: 50px;
 }
+
+.arrowdown {
+	font-size: 3em;
+	color: #fff !important;
+	margin-top: 92vh;
+}
+
 .contact-header {
 	margin: 70px 0px 30px 0px;
 }
@@ -370,6 +389,16 @@ footer p {
 	color: #ed6a46;
 }
 /*einde footer*/
+
+/*begin horizontol scroll pagina*/
+ #section0 h1{
+	font-size: 5em;
+	font-family: arial,helvetica;
+	color: #fff;
+	margin:0;
+	padding:40px 0 0 0;
+}
+/*einde horizontol scroll pagina*/
 
 
 
