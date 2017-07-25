@@ -190,7 +190,7 @@
 
 				<a class="sm-contact" href="https://www.linkedin.com/in/cor-oldenhuis-7292b0141/" target="blank"><i class="fa fa-linkedin"></i></a>
 
-				<a class="sm-contact" href="https://twitter.com/CorOldenhuis" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a class="sm-contact" href="https://twitter.com/CorOldenhuis" target="_blank"><i id="#btnTweet" class="fa fa-twitter"></i></a>
 
 				<a class="sm-contact" href="https://www.behance.net/corolden" target="_blank"><i class="fa fa-behance"></i></a>
 			</div>
@@ -252,6 +252,24 @@
 	</div>
 </footer>
 <!-- einde footer -->
+
+<script type="text/javascript"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.5.1.js">
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+$('#btnTweet').click(function (e) {
+var textToTweet = "@CorOldenhuis i really like your website";
+if (textToTweet.length > 140) {
+alert('Tweet should be less than 140 Chars');
+}
+else {
+var twtLink = 'http://twitter.com/home?status=' +encodeURIComponent(textToTweet);
+window.open(twtLink,'_blank');
+}
+});
+});
+</script>
 
 <script src="js/app.js"></script>
 <script src="node_modules/progressbar.js/dist/progressbar.js"></script>

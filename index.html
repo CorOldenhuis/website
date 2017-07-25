@@ -21,6 +21,9 @@
 	    ga('create', 'UA-102255556-1', 'auto');
 	    ga('send', 'pageview');
 	</script>
+
+
+
 </head>
 <body>
 	<!-- Navbar -->
@@ -62,7 +65,8 @@
 	<section id="showcase">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-5 col-xs-10"></div>
+				<div class="col-md-4 col-sm-5 col-xs-10">
+				</div>
 			</div>
 			<div class="col-md-7 col-sm-6 col-xs-2"></div>
 		</div>
@@ -120,6 +124,7 @@
 			</div>
 		</div>
 	</section><!-- Einde over mij -->
+
 	<!-- Berichten -->
 	<section id="berichten">
 		<div class="container">
@@ -228,7 +233,11 @@
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12 text-center">
 					<div>
-						<a class="sm-contact" href="https://github.com/CorOldenhuis" target="blank"><i class="fa fa-github"></i></a> <a class="sm-contact" href="https://www.linkedin.com/in/cor-oldenhuis-7292b0141/" target="blank"><i class="fa fa-linkedin"></i></a> <a class="sm-contact" href="https://twitter.com/CorOldenhuis" target="_blank"><i class="fa fa-twitter"></i></a> <a class="sm-contact" href="https://www.behance.net/corolden" target="_blank"><i class="fa fa-behance"></i></a>
+						<a class="sm-contact" href="https://github.com/CorOldenhuis" target="blank"><i class="fa fa-github"></i></a> <a class="sm-contact" href="https://www.linkedin.com/in/cor-oldenhuis-7292b0141/" target="blank"><i class="fa fa-linkedin"></i></a>
+
+						<a class="sm-contact" href="https://twitter.com/CorOldenhuis" target="_blank"><i id="btnTweet"class="fa fa-twitter"></i></a>
+
+						<a class="sm-contact" href="https://www.behance.net/corolden" target="_blank"><i class="fa fa-behance"></i></a>
 					</div>
 					<div>
 						<form action="mail.php" class="form-horizontal" method="post" role="form">
@@ -263,7 +272,8 @@
 				</div>
 			</div>
 		</div>
-	</section><!-- footer -->
+	</section>
+	<!-- footer -->
 	<footer id="footer">
 		<div class="arrow text-center">
 			<a href="#showcase"><i class="fa fa-angle-up"></i></a>
@@ -273,6 +283,28 @@
 			<p class="text-center">Cor Oldenhuis Copyright &copy; 2017 | You also need to check out:</p><a class="collega" href="https://codegorilla.nl/" target="_blank">CodeGorilla</a> <a class="collega" href="http://nieuw.design/" target="_blank">Bert Leiting</a> <a class="collega" href="http://webdevpro.nl/" target="_blank">Ramon Horst</a> <a class="collega" href="http://webdevpro.nl/bjorndejong/" target="_blank">Bjorn de Jong</a> <a class="collega" href="http://fimyco.nl/harcowittendorp/" target="_blank">Harco Wittendorp</a>
 		</div>
 	</footer><!-- einde footer -->
+
+
+
+	<script type="text/javascript"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.5.1.js">
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function () {
+	$('#btnTweet').click(function (e) {
+	var textToTweet = "@CorOldenhuis i really like your website";
+	if (textToTweet.length > 140) {
+	alert('Tweet should be less than 140 Chars');
+	}
+	else {
+	var twtLink = 'http://twitter.com/home?status=' +encodeURIComponent(textToTweet);
+	window.open(twtLink,'_blank');
+	}
+	});
+	});
+	</script>
+
+
 	<script src="https://code.jquery.com/jquery-3.2.1.js">
 	</script>
 	<script src="js/app.js">
