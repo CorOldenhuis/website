@@ -8,19 +8,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	font-family: "Poppins";
-
 }
-
 img.port-align-left {
-  float: left;
-  margin: 0 1em .5em 0;
+	float: left;
+	margin: 0 1em .5em 0;
 }
-
 .portslidertext p {
 	font-family: "Poppins";
 	font-size: 1.1em;
 }
-
+.slider {
+	width: 100vw;
+}
 i {
 	margin-top: 14px;
 	margin-left: 5px;
@@ -37,10 +36,12 @@ a:focus, a:hover {
 }
 
 /*navbar*/
+
 .navbar-default .navbar-nav>li>a {
 	font-weight: 600;
 	font-family: "Orbitron";
 	color: #000;
+	margin-top: 10px;
 }
 .navbar-default {
 	background: #fff;
@@ -55,11 +56,14 @@ a:focus, a:hover {
 	color: #ed6a46 !important;
 	font-weight: bold;
 	font-family: "Orbitron";
+	margin-top: 10px;
 }
+
 /*einde navbar*/
 
 
 /*showcase*/
+
 .showcase-btn {
 	font-family: "Orbitron";
 	margin-top: -5px;
@@ -69,7 +73,19 @@ a:focus, a:hover {
 	font-size: 35px;
 	margin-top: 100px;
 	line-height: 1.4em;
-	color: #000;
+	color: #fff;
+}
+.showcase-header-secure {
+	font-size: 35px;
+	margin-top: 100px;
+	line-height: 1.4em;
+	color: #fff;
+}
+.showcase-header-subscribe {
+	font-size: 35px;
+	margin-top: 100px;
+	line-height: 1.4em;
+	color: #fff;
 }
 #showcase p {
 	color: #000;
@@ -86,7 +102,7 @@ a:focus, a:hover {
 #showcase {
 	height: 100vh;
 	width: 100vw;
-	background: url(../img/space-desk-office-computer.jpg);
+	background: url(../img/_DSC0011-2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -94,10 +110,12 @@ a:focus, a:hover {
 #showcase .showcase-right {
 	margin-top: 90px;
 }
+
 /*einde showcase*/
 
 
 /*overmij*/
+
 #overMij .btn-default {
 	border: 10px;
 }
@@ -120,6 +138,7 @@ a:focus, a:hover {
 	color: #ed6a46;
 	margin-bottom: 100px;
 }
+
 /*einde over mij*/
 
 .btn-default:hover {
@@ -133,13 +152,11 @@ a:focus, a:hover {
 .text-center {
 	font-family: "Orbitron";
 }
-
 .text-center-secure {
 	font-family: "Orbitron";
 	font-weight: 600;
 	font-size: 1em;
 }
-
 .panel-title>a {
 	border-bottom: none !important;
 	font-family: "Orbitron";
@@ -200,37 +217,38 @@ a:focus, a:hover {
 	color: #000 !important;
 	margin-top: 50px;
 }
-
 .arrowdown {
 	font-size: 3em;
 	color: #fff !important;
 	margin-top: 92vh;
 }
-
 .contact-header {
 	margin: 70px 0px 30px 0px;
 }
 
 /*helper clases*/
+
 .spacer-md1 {
 	height: 200px;
 }
 .spacer-md2 {
 	height: 100px;
 }
-.spacer-md3{
-  height: 75px;
+.spacer-md3 {
+	height: 75px;
 }
-.spacer-md4{
-  height: 25px;
+.spacer-md4 {
+	height: 25px;
 }
-.spacer-md5{
-  height: 35px;
+.spacer-md5 {
+	height: 35px;
 }
+
 /*einde helper clases*/
 
 
 /*portfolio*/
+
 .content-section-a {
 	padding: 70px 0;
 	background-color: #f8f8f8;
@@ -253,30 +271,28 @@ a:focus, a:hover {
 .portfolio-sub {
 	margin-bottom: 25px;
 }
+
 /*einde portfolio*/
 
 .interests {
 	width: 35vw;
 	margin-left: 1vw;
 }
-
 .progress {
 	height: 15px;
 }
-
 .progress-bar {
 	background-color: #ed6a46 !important;
 }
-
 .stuff-secure {
 	margin-bottom: 40px;
 }
-
 .twitter {
 	color: #ed6a46;
 }
 
 /*progressbar*/
+
 #container {
 	margin: auto;
 	width: 200px;
@@ -293,6 +309,7 @@ a:focus, a:hover {
 	height: 100px;
 	margin-bottom: 150px;
 }
+
 /*einde progresbar*/
 
 #accordion {
@@ -307,17 +324,15 @@ a:focus, a:hover {
 	background-attachment: fixed;
 	/*margin-bottom: 25px;*/
 }
-
 #subscribe {
-	height: 40vh;
+	height: 45vh;
 	width: 100vw;
-	background: url(../img/pexels-photo-164425.jpg);
+	background: url(../img/_DSC0006.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	margin-bottom: 5%;
 }
-
 #parralax-secure {
 	height: 60vh;
 	width: 100vw;
@@ -327,7 +342,6 @@ a:focus, a:hover {
 	background-attachment: fixed;
 	/*margin-bottom: 25px;*/
 }
-
 #parralax-einde-secure {
 	height: 50vh;
 	width: 100vw;
@@ -337,7 +351,6 @@ a:focus, a:hover {
 	background-attachment: fixed;
 	/*margin-bottom: 25px;*/
 }
-
 #info2 {
 	margin: 20px 0 60px 0;
 	height: 400px;
@@ -345,6 +358,7 @@ a:focus, a:hover {
 #works {}
 
 /*blog*/
+
 .a-blog {
 	color: red !important;
 }
@@ -354,14 +368,15 @@ a:focus, a:hover {
 .blog-header {
 	font-family: "Orbitron";
 }
+
 /*einde blog*/
 
 .form-horizontal {
 	margin-top: 60px;
 }
 
-
 /*contact*/
+
 #contact {
 	padding: 40px;
 	color: #fff;
@@ -377,9 +392,12 @@ a:focus, a:hover {
 	/*padding: 0px 30px;*/
 	margin: 100px 30px;
 }
+
 /*einde contact*/
 
+
 /*footer*/
+
 footer p {
 	font-family: "Orbitron";
 	/*padding:30px;*/
@@ -395,21 +413,25 @@ footer p {
 	text-decoration: none;
 	color: #ed6a46;
 }
+
 /*einde footer*/
 
+
 /*begin horizontol scroll pagina*/
- #section0 h1{
+
+#section0 h1 {
 	font-size: 5em;
-	font-family: arial,helvetica;
+	font-family: arial, helvetica;
 	color: #fff;
-	margin:0;
-	padding:40px 0 0 0;
+	margin: 0;
+	padding: 40px 0 0 0;
 }
+
 /*einde horizontol scroll pagina*/
 
 
-
 /* Extra Small Devices, Phones */
+
 @media only screen and (max-width: 480px) {
 	#showcase {
 		height: 100vh;
@@ -468,10 +490,8 @@ footer p {
 	}
 }
 
-
-
-
 /* Small Devices, Tablets */
+
 @media only screen and (max-width: 1024px) and (min-width: 480px) {
 	#showcase {
 		height: 100vh;
@@ -488,9 +508,7 @@ footer p {
 		color: #000;
 	}
 }
-
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-
 	.sm-contact {
 		font-size: 35px !important;
 		color: #000;
@@ -500,11 +518,12 @@ footer p {
 }
 
 /*Big Devices*/
+
 @media only screen and (min-width: 1366px) {
 	.showcase-header {
 		font-size: 40px;
-		margin-top: 80px;
+		margin-top: 60px;
 		line-height: 1.4em;
-		color: #000;
+		color: #fff;
 	}
 }

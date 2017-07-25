@@ -5,14 +5,14 @@
 .gh-widget-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   color: #333;
   font-family: 'Orbitron'; }
 
 .gh-widget-personal-details .bio, .gh-widget-stats .count {
-  color: #ed6a46; }
+  color: #4078C0; }
 
 .github-widget {
   border: 1px solid #DDD;
@@ -33,7 +33,7 @@
   flex: 2; }
 
 .gh-widget-photo img {
-  border-radius: 100%;
+  border-radius: 25%;
   max-width: 90px; }
 
 .gh-widget-personal-details {
@@ -47,7 +47,7 @@
   font-size: 0.8em; }
 
 .gh-widget-stats .count {
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: 700; }
 
 .gh-widget-repositories .names {
@@ -73,7 +73,7 @@
   border: 1px solid #DDD; }
 
 .gh-widget-link {
-  color: #ed6a46; }
+  color: #4078C0; }
 
 .gh-widget-follow button {
   width: 100%;

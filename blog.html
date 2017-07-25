@@ -1,268 +1,227 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="blog, vlog, code gorilla, codegorilla, grafische vormgeving, cor oldenhuis">
-    <title>Cor Oldenhuis</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Josefin+Sans|Orbitron:100,200,300,400,500,600,700%" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="blog, vlog, code gorilla, codegorilla, grafische vormgeving, cor oldenhuis" name="description">
+	<title>Cor Oldenhuis</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins|Josefin+Sans|Orbitron:100,200,300,400,500,600,700%" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
+	</script>
+	<script>
+	     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	     ga('create', 'UA-102255556-1', 'auto');
+	     ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<!-- load facebook comments js -->
+	<script>
+	   window.fbAsyncInit = function() {
+	     FB.init({
+	       appId      : '1712865502076953',
+	       xfbml      : true,
+	       version    : 'v2.9'
+	     });
+	     FB.AppEvents.logPageView();
+	   };
 
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-102255556-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-  </head>
-  <body>
-
-    <!-- load facebook comments js -->
-    <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '1712865502076953',
-        xfbml      : true,
-        version    : 'v2.9'
-      });
-      FB.AppEvents.logPageView();
-    };
-
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "//connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-  </script>
-
-
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="row">
-        <div class="navbar-header col-xs-7">
-          <p class="navbar-brand">Cor Oldenhuis</p>
-        </div>
-        <div class="navbar-header col-xs-5">
-        <button type="button" class="navbar-toggle" data-toggle="collapse"     data-target="#navbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#first-post">Eerste Blog</a></li>
-            <li><a href="#contactMe">Contact Me</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    </nav>
-    <!-- Einde navbar -->
-
-  <!-- Showcase -->
-    <section id="showcase-blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Einde showcase -->
-
-    <div class="container">
-      <div class="row">
-
-          <div class="col-md-6 blog">
-            <!-- Title -->
-            <h1 class="blog-header">The day after.....</h1>
-            <p class="lead">by Cor Oldenhuis nr. 04</p>
-            <hr>
-            <!-- Date/Time -->
-            <p><span class="glyphicon glyphicon-time"></span> Posted on July 22, 2017 at 20:24 Hr</p>
-            <hr>
-            <!-- Preview Image -->
-            <img class="img-responsive" src="img/blog/poker.jpg" alt="">
-            <hr>
-            <!-- Post Content -->
-                <p class="lead">Buikpijn van het lachen of was het toch van de drank.....</p>
-                <p>Omdat we niet vies zijn van een feestje hadden we gisteren een poker toernooi georganiseerd. The PokerBoss, Ace, Straight Homo Erectus en Non-Hamser waren enkele nicknames die de collega's hadden bedacht. 'Lucky Mo' is er met de hoofdprijs, een mok zo groot dat er koffie voor de hele week in past, vandoor gegaan, al weet ik niet helemaal zeker of zij wel eerlijk heeft gespeelt...<br>De vriendin van onze buisiness manager had de catering voor haar rekenng genomen en wat mij betreft mag Constance dit de volgende keer weer doen want het was heerlijk!</p>
-                <p>Voor de 'zuiplap van de avond' is er een speciale troffee in het leven geroepen. waar die troffe precies vandaan komt laat ik in het midden. Ik heb de eer om deze troffee tot het volgeende feestje te dragen. Maar er zijn al genomineerden voor het volgende feest. Of ik de prijs terecht heb gekregen? Nee natuurlijk niet.........Maar gezellig was het wel!
-                <hr>
-              <div id="blog4" class="fb-comments" data-href="http://coroldenhuis.nl/blog.html/#blogpost4" data-width="500" data-numposts="5"></div>
-              <div
-                class="fb-like" data-share="true" data-width="450" data-show-faces="true">
-              </div>
-          </div>
-
-          <div class="col-md-6 blog">
-              <!-- Title -->
-              <h1 class="blog-header">It's alive!.....</h1>
-              <p class="lead">by Cor Oldenhuis nr. 03</p>
-              <hr>
-              <!-- Date/Time -->
-              <p><span class="glyphicon glyphicon-time"></span> Posted on July 17, 2017 at 20:00 Hr</p>
-              <hr>
-              <!-- Preview Image -->
-              <img class="img-responsive" src="img/blog/live.jpg" alt="">
-              <hr>
-              <!-- Post Content -->
-                  <p class="lead">Oke ik had gezegd dat ik maar 1 x per week een blog zou schrijven. Maar vandaag is m'n site live gegaan dus reden voor een extra blog!</p>
-                  <p>bloed zweet en tranen....nou ja zweet?, bloed? en tranen eigenlijk ook niet maar wel veel moeite, hard werken en wat hulp heeft er voor gezorgd dat mijn website vandaag af genoeg was om live te gaan. Nee hij is nog niet helemaal klaar, maar ja wanneer is hij dat dan wel? Ik ben iemand die altijd vol zit met ideeën en heel veel dingen mooi vind, dus mijn site zal wel nooit helemaal af zijn.</p>
-                  <p>Ruim twee maand geleden had ik nog nooit één regel code geschreven, ik had al vaker website's ontworpen maar die werden dan door anderen gebouwd. Zelf bouwen geeft toch meer voldoening dan uitbesteden. Mijn toolbox is een stukje uitgebreider geworden, al ben ik nog steeds aan het leren. hoe meer ik leer hoe meer ik erachter kom wat er mogelijk is en dat ik meer niet weet dan wel. Maar inspirerend is het wel!</p>
-                  <hr>
-                <div id="blog1" class="fb-comments" data-href="http://coroldenhuis.nl/blog.html/#blogpost1" data-width="500" data-numposts="5"></div>
-                <div
-                  class="fb-like" data-share="true" data-width="450" data-show-faces="true">
-                </div>
-            </div>
-            </section>
-          </div>
-        </div>
-
-
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-6 blog">
-            <!-- Title -->
-            <h1 class="blog-header">I think my office is pretty awesome!</h1>
-            <p class="lead">by Cor Oldenhuis nr. 02</p>
-            <hr>
-            <!-- Date/Time -->
-            <p><span class="glyphicon glyphicon-time"></span> Posted on July 14, 2017 at 11:00 Hr</p>
-            <hr>
-            <!-- Preview Image -->
-            <img class="img-responsive" src="img/blog/office.jpg" alt="">
-            <hr>
-            <!-- Post Content -->
-            <p class="lead">Een creatieve baan vraagt om een creatieve omgeving, nou ja het helpt in ieder geval wel!</p>
-            <p>Nee ik werk niet in een cafe, al kan ik me wel voorstellen dat je dit dacht. Dit is de werkruimte van <a class="a-blog t" target="_blank" href="https://codegorilla.nl">CodeGorilla</a>, een codeer school. Op dit moment ben ik daar student en leer ik wat ik maar wil leren. CodeGorilla onderwijst in ondernemend leren en focust zich op de ICT branche. De bootcamp duurt 3 maand waarin je alle mogelijke ondersteuning kunt krijgen. Jij bent in the lead en bepaalt zelf wat je leert zolang het maar ICT gerelateerd is. Lukt het jouw om het traject positief af te sluiten dan ben je klaar om gedatacheerd te worden als junior ICT-er.</p>
-
-            <p>De ICT is toch saai? Nee joh! Het is een wereld die ontzettend creatief is en die nooit stil staat. Je bent dus ook nooit klaar met leren. Denk eens terug aan je eigen klaslokaal en vergelijk die met de mijne. Dat zegt genoeg toch?</p>
-
-            <p>Nog 2 weken en dan is mijn bootcamp afgelopen, maar eigenlijk begint het dan pas. De Gorilla's hebben mij gevraagd om aan te blijven als coach/instructor. Een aanbod waar ik volmondig ja op heb gezegd. Ik heb de afgelopen 3 maand mensen zien groeien tot zelfverzekerde, getalenteerde mensen die de ICT wereld op de kop gaan zetten. Dat geeft een enorme kick, en die kick wil ik blijven ervaren.</p>
-            <hr>
-            <div id="blog2" class="fb-comments" data-href="http://coroldenhuis.nl/blog.html#blogpost2" data-width="500" data-numposts="5"></div>
-
-            <div
-              class="fb-like" data-share="true" data-width="450" data-show-faces="true">
-            </div>
-          </div>
-
-          <section id="first-post">
-          <div class="col-md-6 blog">
-              <!-- Title -->
-              <h1 class="blog-header">Good coders copy, great coders steal</h1>
-              <p class="lead">by Cor Oldenhuis nr. 01</p>
-              <hr>
-              <!-- Date/Time -->
-              <p><span class="glyphicon glyphicon-time"></span> Posted on July 09, 2017 at 17:00 Hr</p>
-              <hr>
-              <!-- Preview Image -->
-              <img class="img-responsive" src="img/blog/create.jpeg" alt="">
-              <hr>
-              <!-- Post Content -->
-              <p class="lead">Good coders copy, great coders steal. En om maar meteen met de deur in huis te vallen, het idee om een blog te beginnen heb ik gestolen van mijn collega <a class="a-blog" href="http://webdevpro.nl/">Ramon Horst</a>.</p>
-              <p>Het gebruiken van iemand zijn idee of code en het aanpassen naar iets van jezelf is voor developers heel normaal. Ik weet dan ook zeker dat hij mijn poging wel kan waarderen. In tegenstelling tot Ramon zal ik niet dagelijks maar wekelijks een blog of vlog publiceren. Waar ik over ga schrijven? Wat er maar in me op komt! En wees gewaarschuwd er komen soms rare dingen in me op.</p>
-              <p>Een paar kernwoorden om me beter te leren kennen. Graphic designer, junior UI-UX developer, mafkees, Apple freak, getrouwd, wannebe coach, cola verslaafd, vader, doorzetter, workahollic, passievol, creatief, CodeGorilla, BMX-monteur, duiker, levensgenieter, idioot, hart op m'n tong.</p>
-              <hr>
-              <div id="blog3" class="fb-comments" data-href="http://coroldenhuis.nl/blog.html#blogpost3" data-width="500" data-numposts="5"></div>
-              <div
-                class="fb-like" data-share="true" data-width="450" data-show-faces="true">
-              </div>
-            </div>
-            </section>
-          </div>
-        </div>
-
-    <section id="contactMe">
-      <hr>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 text-center">
-            <h1 class="contact-header">Contact Me</h1>
-          </div>
-          <div class="col-md-12 col-sm-12 text-center">
-            <div>
-              <a class="sm-contact" href="https://github.com/CorOldenhuis" target="blank"><i class="fa fa-github"></i></a>
-              <a class="sm-contact" href="https://www.linkedin.com/in/cor-oldenhuis-7292b0141/" target="blank"><i class="fa fa-linkedin"></i></a>
-              <a class="sm-contact" href="https://twitter.com/CorOldenhuis" target="_blank"><i class="fa fa-twitter"></i></a>
-    					<a class="sm-contact" href="https://www.behance.net/corolden" target="_blank"><i class="fa fa-behance"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer id="footer">
-      <div class="arrow text-center">
-      <a href="#showcase-blog"><i class="fa fa-angle-up"></i></a>
-    </div>
-      <div class="text-center">
-        <hr>
-        <p class="text-center">Cor Oldenhuis Copyright &copy; 2017 | You also need to check out:</p>
-        <a class="collega" href="https://codegorilla.nl/" target="_blank">CodeGorilla</a>
-        <a class="collega" href="http://nieuw.design/" target="_blank">Bert Leiting</a>
-        <a class="collega" href="http://webdevpro.nl/" target="_blank">Ramon Horst</a>
-        <a class="collega" href="http://webdevpro.nl/bjorndejong/" target="_blank">Bjorn de Jong</a>
-        <a class="collega" href="http://fimyco.nl/harcowittendorp/" target="_blank">Harco Wittendorp</a>
-      </div>
-    </footer>
-
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script>
-        window.sr = ScrollReveal();
-        sr.reveal('.navbar', {
-          duration: 2000,
-          origin:'bottom'
-        });
-        sr.reveal('.blog-header', {
-          duration: 2000,
-          origin:'left',
-          distance:'300px'
-        });
-        sr.reveal('.contact-header', {
-          duration: 2000,
-          delay: 500,
-          origin:'bottom'
-        });
-    </script>
-
-    <script>
-    $(function() {
-      // Smooth Scrolling
-      $('a[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 1500);
-            return false;
-          }
-        }
-      });
-    });
-    </script>
-  </body>
+	   (function(d, s, id){
+	      var js, fjs = d.getElementsByTagName(s)[0];
+	      if (d.getElementById(id)) {return;}
+	      js = d.createElement(s); js.id = id;
+	      js.src = "//connect.facebook.net/en_US/sdk.js";
+	      fjs.parentNode.insertBefore(js, fjs);
+	    }(document, 'script', 'facebook-jssdk'));
+	</script> <!-- Navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="navbar-header col-xs-7">
+					<p class="navbar-brand">Cor Oldenhuis</p>
+				</div>
+				<div class="navbar-header col-xs-5">
+					<button class="navbar-toggle" data-target="#navbar" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="#first-post">Eerste Blog</a>
+						</li>
+						<li>
+							<a href="#contactMe">Contact Me</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav><!-- Einde navbar -->
+	<!-- Showcase -->
+	<section id="showcase-blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12"></div>
+			</div>
+		</div>
+	</section><!-- Einde showcase -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 blog">
+				<!-- Title -->
+				<h1 class="blog-header">The day after.....</h1>
+				<p class="lead">by Cor Oldenhuis nr. 04</p>
+				<hr>
+				<!-- Date/Time -->
+				<p><span class="glyphicon glyphicon-time"></span> Posted on July 22, 2017 at 20:24 Hr</p>
+				<hr>
+				<!-- Preview Image -->
+				<img alt="" class="img-responsive" src="img/blog/poker.jpg">
+				<hr>
+				<!-- Post Content -->
+				<p class="lead">Buikpijn van het lachen of was het toch van de drank.....</p>
+				<p>Omdat we niet vies zijn van een feestje hadden we gisteren een poker toernooi georganiseerd. The PokerBoss, Ace, Straight Homo Erectus en Non-Hamser waren enkele nicknames die de collega's hadden bedacht. 'Lucky Mo' is er met de hoofdprijs, een mok zo groot dat er koffie voor de hele week in past, vandoor gegaan, al weet ik niet helemaal zeker of zij wel eerlijk heeft gespeelt...<br>
+				De vriendin van onze buisiness manager had de catering voor haar rekenng genomen en wat mij betreft mag Constance dit de volgende keer weer doen want het was heerlijk!</p>
+				<p>Voor de 'zuiplap van de avond' is er een speciale troffee in het leven geroepen. waar die troffe precies vandaan komt laat ik in het midden. Ik heb de eer om deze troffee tot het volgeende feestje te dragen. Maar er zijn al genomineerden voor het volgende feest. Of ik de prijs terecht heb gekregen? Nee natuurlijk niet.........Maar gezellig was het wel!</p>
+				<hr>
+				<div class="fb-comments" data-href="http://coroldenhuis.nl/blog.html/#blogpost4" data-numposts="5" data-width="500" id="blog4"></div>
+				<div class="fb-like" data-share="true" data-show-faces="true" data-width="450"></div>
+			</div>
+			<div class="col-md-6 blog">
+				<!-- Title -->
+				<h1 class="blog-header">It's alive!.....</h1>
+				<p class="lead">by Cor Oldenhuis nr. 03</p>
+				<hr>
+				<!-- Date/Time -->
+				<p><span class="glyphicon glyphicon-time"></span> Posted on July 17, 2017 at 20:00 Hr</p>
+				<hr>
+				<!-- Preview Image -->
+				<img alt="" class="img-responsive" src="img/blog/live.jpg">
+				<hr>
+				<!-- Post Content -->
+				<p class="lead">Oke ik had gezegd dat ik maar 1 x per week een blog zou schrijven. Maar vandaag is m'n site live gegaan dus reden voor een extra blog!</p>
+				<p>bloed zweet en tranen....nou ja zweet?, bloed? en tranen eigenlijk ook niet maar wel veel moeite, hard werken en wat hulp heeft er voor gezorgd dat mijn website vandaag af genoeg was om live te gaan. Nee hij is nog niet helemaal klaar, maar ja wanneer is hij dat dan wel? Ik ben iemand die altijd vol zit met ideeën en heel veel dingen mooi vind, dus mijn site zal wel nooit helemaal af zijn.</p>
+				<p>Ruim twee maand geleden had ik nog nooit één regel code geschreven, ik had al vaker website's ontworpen maar die werden dan door anderen gebouwd. Zelf bouwen geeft toch meer voldoening dan uitbesteden. Mijn toolbox is een stukje uitgebreider geworden, al ben ik nog steeds aan het leren. hoe meer ik leer hoe meer ik erachter kom wat er mogelijk is en dat ik meer niet weet dan wel. Maar inspirerend is het wel!</p>
+				<hr>
+				<div class="fb-comments" data-href="http://coroldenhuis.nl/blog.html/#blogpost1" data-numposts="5" data-width="500" id="blog1"></div>
+				<div class="fb-like" data-share="true" data-show-faces="true" data-width="450"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 blog">
+				<!-- Title -->
+				<h1 class="blog-header">I think my office is pretty awesome!</h1>
+				<p class="lead">by Cor Oldenhuis nr. 02</p>
+				<hr>
+				<!-- Date/Time -->
+				<p><span class="glyphicon glyphicon-time"></span> Posted on July 14, 2017 at 11:00 Hr</p>
+				<hr>
+				<!-- Preview Image -->
+				<img alt="" class="img-responsive" src="img/blog/office.jpg">
+				<hr>
+				<!-- Post Content -->
+				<p class="lead">Een creatieve baan vraagt om een creatieve omgeving, nou ja het helpt in ieder geval wel!</p>
+				<p>Nee ik werk niet in een cafe, al kan ik me wel voorstellen dat je dit dacht. Dit is de werkruimte van <a class="a-blog t" href="https://codegorilla.nl" target="_blank">CodeGorilla</a>, een codeer school. Op dit moment ben ik daar student en leer ik wat ik maar wil leren. CodeGorilla onderwijst in ondernemend leren en focust zich op de ICT branche. De bootcamp duurt 3 maand waarin je alle mogelijke ondersteuning kunt krijgen. Jij bent in the lead en bepaalt zelf wat je leert zolang het maar ICT gerelateerd is. Lukt het jouw om het traject positief af te sluiten dan ben je klaar om gedatacheerd te worden als junior ICT-er.</p>
+				<p>De ICT is toch saai? Nee joh! Het is een wereld die ontzettend creatief is en die nooit stil staat. Je bent dus ook nooit klaar met leren. Denk eens terug aan je eigen klaslokaal en vergelijk die met de mijne. Dat zegt genoeg toch?</p>
+				<p>Nog 2 weken en dan is mijn bootcamp afgelopen, maar eigenlijk begint het dan pas. De Gorilla's hebben mij gevraagd om aan te blijven als coach/instructor. Een aanbod waar ik volmondig ja op heb gezegd. Ik heb de afgelopen 3 maand mensen zien groeien tot zelfverzekerde, getalenteerde mensen die de ICT wereld op de kop gaan zetten. Dat geeft een enorme kick, en die kick wil ik blijven ervaren.</p>
+				<hr>
+				<div class="fb-comments" data-href="http://coroldenhuis.nl/blog.html#blogpost2" data-numposts="5" data-width="500" id="blog2"></div>
+				<div class="fb-like" data-share="true" data-show-faces="true" data-width="450"></div>
+			</div>
+			<section id="first-post">
+				<div class="col-md-6 blog">
+					<!-- Title -->
+					<h1 class="blog-header">Good coders copy, great coders steal</h1>
+					<p class="lead">by Cor Oldenhuis nr. 01</p>
+					<hr>
+					<!-- Date/Time -->
+					<p><span class="glyphicon glyphicon-time"></span> Posted on July 09, 2017 at 17:00 Hr</p>
+					<hr>
+					<!-- Preview Image -->
+					<img alt="" class="img-responsive" src="img/blog/create.jpeg">
+					<hr>
+					<!-- Post Content -->
+					<p class="lead">Good coders copy, great coders steal. En om maar meteen met de deur in huis te vallen, het idee om een blog te beginnen heb ik gestolen van mijn collega <a class="a-blog" href="http://webdevpro.nl/">Ramon Horst</a>.</p>
+					<p>Het gebruiken van iemand zijn idee of code en het aanpassen naar iets van jezelf is voor developers heel normaal. Ik weet dan ook zeker dat hij mijn poging wel kan waarderen. In tegenstelling tot Ramon zal ik niet dagelijks maar wekelijks een blog of vlog publiceren. Waar ik over ga schrijven? Wat er maar in me op komt! En wees gewaarschuwd er komen soms rare dingen in me op.</p>
+					<p>Een paar kernwoorden om me beter te leren kennen. Graphic designer, junior UI-UX developer, mafkees, Apple freak, getrouwd, wannebe coach, cola verslaafd, vader, doorzetter, workahollic, passievol, creatief, CodeGorilla, BMX-monteur, duiker, levensgenieter, idioot, hart op m'n tong.</p>
+					<hr>
+					<div class="fb-comments" data-href="http://coroldenhuis.nl/blog.html#blogpost3" data-numposts="5" data-width="500" id="blog3"></div>
+					<div class="fb-like" data-share="true" data-show-faces="true" data-width="450"></div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<section id="contactMe">
+		<hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 text-center">
+					<h1 class="contact-header">Contact Me</h1>
+				</div>
+				<div class="col-md-12 col-sm-12 text-center">
+					<div>
+						<a class="sm-contact" href="https://github.com/CorOldenhuis" target="blank"><i class="fa fa-github"></i></a> <a class="sm-contact" href="https://www.linkedin.com/in/cor-oldenhuis-7292b0141/" target="blank"><i class="fa fa-linkedin"></i></a> <a class="sm-contact" href="https://twitter.com/CorOldenhuis" target="_blank"><i class="fa fa-twitter"></i></a> <a class="sm-contact" href="https://www.behance.net/corolden" target="_blank"><i class="fa fa-behance"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="arrow text-center">
+			<a href="#showcase-blog"><i class="fa fa-angle-up"></i></a>
+		</div>
+		<div class="text-center">
+			<hr>
+			<p class="text-center">Cor Oldenhuis Copyright &copy; 2017 | You also need to check out:</p><a class="collega" href="https://codegorilla.nl/" target="_blank">CodeGorilla</a> <a class="collega" href="http://nieuw.design/" target="_blank">Bert Leiting</a> <a class="collega" href="http://webdevpro.nl/" target="_blank">Ramon Horst</a> <a class="collega" href="http://webdevpro.nl/bjorndejong/" target="_blank">Bjorn de Jong</a> <a class="collega" href="http://fimyco.nl/harcowittendorp/" target="_blank">Harco Wittendorp</a>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	<script>
+	       window.sr = ScrollReveal();
+	       sr.reveal('.navbar', {
+	         duration: 2000,
+	         origin:'bottom'
+	       });
+	       sr.reveal('.blog-header', {
+	         duration: 2000,
+	         origin:'left',
+	         distance:'300px'
+	       });
+	       sr.reveal('.contact-header', {
+	         duration: 2000,
+	         delay: 500,
+	         origin:'bottom'
+	       });
+	</script>
+	<script>
+	   $(function() {
+	     // Smooth Scrolling
+	     $('a[href*="#"]:not([href="#"])').click(function() {
+	       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	         var target = $(this.hash);
+	         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	         if (target.length) {
+	           $('html, body').animate({
+	             scrollTop: target.offset().top
+	           }, 1500);
+	           return false;
+	         }
+	       }
+	     });
+	   });
+	</script>
+</body>
 </html>
