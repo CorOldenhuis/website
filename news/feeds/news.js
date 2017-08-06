@@ -7,7 +7,7 @@ ShowDesc : true,
 ShowPubDate:true,
 DescCharacterLimit:600,
 TitleLinkTarget:'_blank',
-DateFormat: 'MM/DD/YYYY',
+DateFormat: 'DD/MM/YYYY',
 DateFormatLang:'en'
 });
 
@@ -18,6 +18,6 @@ ShowDesc : true,
 ShowPubDate:true,
 DescCharacterLimit:600,
 TitleLinkTarget:'_blank',
-DateFormat: 'MM/DD/YYYY',
+DateFormat: 'DD/MM/YYYY',
 DateFormatLang:'en'
 });

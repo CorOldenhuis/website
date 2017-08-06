@@ -24,6 +24,12 @@ sr.reveal('.overmij-left', {
   distance:'300px',
   viewFactor: 0.2
 });
+sr.reveal('#project01', {
+  duration: 2000,
+  origin:'left',
+  distance:'300px',
+  viewFactor: 0.2
+});
 sr.reveal('.overmij-right', {
   duration: 3000,
   origin:'left',

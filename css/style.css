@@ -64,10 +64,10 @@ a:focus, a:hover {
   width: 200px;
   background: #ed6a46;
   position: absolute;
-  top: 25px;
+  top: -25px;
   left: -50px;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
 	text-shadow: 3px 3px 0px rgba(0,0,0,.3);
 	font-size: 1.1em;
 	font-family: 'Orbitron';
@@ -75,29 +75,27 @@ a:focus, a:hover {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 	overflow: hidden;
-
 }
+
 .corner-ribbon.shadow{
   box-shadow: 3px 3px 0px rgba(0,0,0,.1);
 }
+
 .corner-ribbon.top-right{
-  top: 113%;
-  right: -50px;
-  left: auto;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-	position: absolute;
+  top: 25px;
+  right: auto;
+  left: -50;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+	position: relative;
+	overflow: hidden;
 }
-.news a:hover{
-	color: #000 !important;
+.ribbon {
+	height: 18vh;
+	overflow: hidden;
+
 }
-
-
-
-
-
 /*=====News Feed================================================================*/
-
 
 .feedEkList{ list-style:none outside none;background-color:#FFFFFF; border:1px solid #D3CAD7; padding:4px 6px; color:#3E3E3E;}
 .feedEkList li{border-bottom:1px solid #D3CAD7; padding:5px;}
@@ -179,9 +177,7 @@ a:focus, a:hover {
 #overMij .btn-default {
 	border: 10px;
 }
-#overMij {
-	padding-top: 80px;
-}
+
 #berichten {
 	background: #fff;
 	padding: 150px 0 60px 0;
