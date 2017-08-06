@@ -8,16 +8,6 @@ sr.reveal('.showcase-left', {
   origin:'top',
   distance:'300px'
 });
-sr.reveal('.showcase-btn', {
-  duration: 2000,
-  delay: 1000,
-  origin:'bottom'
-});
-sr.reveal('.btn-default', {
-  duration: 2000,
-  delay: 1000,
-  origin:'bottom'
-});
 sr.reveal('.contact-header', {
   duration: 2000,
   delay: 500,

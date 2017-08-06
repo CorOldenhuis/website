@@ -21,9 +21,6 @@
 	    ga('create', 'UA-102255556-1', 'auto');
 	    ga('send', 'pageview');
 	</script>
-
-
-
 </head>
 <body>
 	<!-- Navbar -->
@@ -54,6 +51,9 @@
 							<a href="#contactMe">Contact Me</a>
 						</li>
 						<li>
+							<a href="news.html">News</a>
+						</li>
+						<li>
 							<a href="subscribe.html">Members</a>
 						</li>
 					</ul>
@@ -61,16 +61,24 @@
 			</div>
 		</div>
 	</nav><!-- Einde navbar -->
+
+	<div id="main" class="main-container">
+
+	</div>
 	<!-- Showcase -->
 	<section id="showcase">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-5 col-xs-10">
-				</div>
+				<div class="col-md-4 col-sm-5 col-xs-10"></div>
 			</div>
 			<div class="col-md-7 col-sm-6 col-xs-2"></div>
 		</div>
 	</section><!-- Einde showcase -->
+
+
+
+
+
 	<!-- Over mij -->
 	<section id="overMij">
 		<div class="container panel">
@@ -84,6 +92,8 @@
 							<p>Uw idee omzetten in een eindproduct dat is wat ik doe. Heeft u een <a href="#contactMe">idee</a>?</p>
 						</div>
 					</div>
+
+
 					<div class="col-md1 col-sm-1"></div>
 					<div class="col-md-6 animate-box">
 						<div aria-multiselectable="true" class="panel-group" id="accordion" role="tablist">
@@ -125,6 +135,8 @@
 		</div>
 	</section><!-- Einde over mij -->
 
+
+
 	<!-- Berichten -->
 	<section id="berichten">
 		<div class="container">
@@ -132,6 +144,10 @@
 			<p class="customer">- Steve Jobs</p>
 		</div>
 	</section><!-- Ende berichten -->
+
+	<a href="news.html"><div class="corner-ribbon top-right shadow">News</div></a>
+
+
 	<!-- ProgressBar -->
 	<section id="bars">
 		<div class="container">
@@ -224,56 +240,68 @@
 					<h3 class="contact-header">Contact Me</h3>
 				</div>
 			</div>
-		</div><!-- einde contact -->
-		<div class="container">
-			<div class="row">
-				<div class="spacer-md3"></div>
-				<div class="col-md-6 col-sm-12 col-xs-12 text-center">
-					<div class="github-widget git" data-username="coroldenhuis"></div>
+		</div>
+
+	<!-- einde contact -->
+
+	<div class="container">
+		<div class="row">
+			<div class="spacer-md3"></div>
+			<div class="col-md-6 col-sm-12 col-xs-12 text-center">
+				<div class="github-widget git" data-username="coroldenhuis"></div>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12 text-center">
+				<div>
+					<a class="sm-contact" href="https://github.com/CorOldenhuis" target="blank"><i class="fa fa-github"></i></a>
+
+					<a class="sm-contact" href="https://www.linkedin.com/in/cor-oldenhuis-7292b0141/" target="blank"><i class="fa fa-linkedin"></i></a>
+
+					<a class="sm-contact" href="https://twitter.com/CorOldenhuis" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="sm-contact" href="https://www.behance.net/corolden" target="_blank"><i class="fa fa-behance"></i></a>
 				</div>
-				<div class="col-md-6 col-sm-12 col-xs-12 text-center">
-					<div>
-						<a class="sm-contact" href="https://github.com/CorOldenhuis" target="blank"><i class="fa fa-github"></i></a> <a class="sm-contact" href="https://www.linkedin.com/in/cor-oldenhuis-7292b0141/" target="blank"><i class="fa fa-linkedin"></i></a>
 
-						<a class="sm-contact" href="https://twitter.com/CorOldenhuis" target="_blank"><i id="btnTweet"class="fa fa-twitter"></i></a>
+				<div>
+					<form class="form-horizontal" role="form" method="post" action="mail.php">
+						<div class="form-group">
+							<label for="name" class="col-sm-2 control-label">Name</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+							</div>
+					</div>
 
-						<a class="sm-contact" href="https://www.behance.net/corolden" target="_blank"><i class="fa fa-behance"></i></a>
+					<div class="form-group">
+						<label for="email" class="col-sm-2 control-label">Email</label>
+							<div class="col-sm-10">
+								<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+							</div>
 					</div>
-					<div>
-						<form action="mail.php" class="form-horizontal" method="post" role="form">
-							<div class="form-group">
-								<label class="col-sm-2 control-label" for="name">Name</label>
-								<div class="col-sm-10">
-									<input class="form-control" id="name" name="name" placeholder="First & Last Name" type="text" value="">
-								</div>
+
+					<div class="form-group">
+						<label for="message" class="col-sm-2 control-label">Message</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" rows="4" name="message"></textarea>
 							</div>
-							<div class="form-group">
-								<label class="col-sm-2 control-label" for="email">Email</label>
-								<div class="col-sm-10">
-									<input class="form-control" id="email" name="email" placeholder="example@domain.com" type="email" value="">
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="col-sm-2 control-label" for="message">Message</label>
-								<div class="col-sm-10">
-									<textarea class="form-control" name="message" rows="4"></textarea>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-10 col-sm-offset-2">
-									<input class="btn btn-default .btn-sm showcase-btn" id="submit" name="submit" type="submit" value="Send">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-10 col-sm-offset-2"></div>
-							</div>
-						</form>
 					</div>
+
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-default .btn-sm showcase-btn">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<! Will be used to display an alert to the user>
+						</div>
+					</div>
+				</form>
 				</div>
 			</div>
 		</div>
+	</div>
 	</section>
-	<!-- footer -->
+
 	<footer id="footer">
 		<div class="arrow text-center">
 			<a href="#showcase"><i class="fa fa-angle-up"></i></a>
@@ -284,9 +312,8 @@
 		</div>
 	</footer><!-- einde footer -->
 
+</div>
 
-
-	<script type="text/javascript"></script>
 	<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.5.1.js">
 	</script>
 	<script type="text/javascript">
@@ -294,16 +321,15 @@
 	$('#btnTweet').click(function (e) {
 	var textToTweet = "@CorOldenhuis i really like your website";
 	if (textToTweet.length > 140) {
-	alert('Tweet should be less than 140 Chars');
+	alert('Je tweet mah max 140 tekens lang zijn');
 	}
 	else {
-	var twtLink = 'http://twitter.com/home?status=' +encodeURIComponent(textToTweet);
+	var twtLink = 'http://twitter.com/home?status=' +(textToTweet);
 	window.open(twtLink,'_blank');
 	}
 	});
 	});
 	</script>
-
 
 	<script src="https://code.jquery.com/jquery-3.2.1.js">
 	</script>

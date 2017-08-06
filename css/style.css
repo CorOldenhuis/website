@@ -59,7 +59,58 @@ a:focus, a:hover {
 	margin-top: 10px;
 }
 
-/*einde navbar*/
+/*=====nieuws ribbon====================================================*/
+.corner-ribbon{
+  width: 200px;
+  background: #ed6a46;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 40px;
+	text-shadow: 3px 3px 0px rgba(0,0,0,.3);
+	font-size: 1.1em;
+	font-family: 'Orbitron';
+  color: #fff;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+	overflow: hidden;
+
+}
+.corner-ribbon.shadow{
+  box-shadow: 3px 3px 0px rgba(0,0,0,.1);
+}
+.corner-ribbon.top-right{
+  top: 113%;
+  right: -50px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+	position: absolute;
+}
+.news a:hover{
+	color: #000 !important;
+}
+
+
+
+
+
+/*=====News Feed================================================================*/
+
+
+.feedEkList{ list-style:none outside none;background-color:#FFFFFF; border:1px solid #D3CAD7; padding:4px 6px; color:#3E3E3E;}
+.feedEkList li{border-bottom:1px solid #D3CAD7; padding:5px;}
+.feedEkList li:last-child{border-bottom:none;}
+.itemTitle a{font-weight:bold; color:#ed6a46 !important; text-decoration:none }
+.itemTitle a:hover{ text-decoration:underline }
+.itemDate{font-size:11px;color:#AAAAAA;}
+
+#feed1 img {
+  display: none;
+}
+/* ===========================================================================
+
 
 
 /*showcase*/
@@ -89,6 +140,15 @@ a:focus, a:hover {
 }
 #showcase p {
 	color: #000;
+}
+#showcase-news {
+	height: 50vh;
+	width: 100vw;
+	margin-bottom: 100px;
+	background: url(../img/pexels-photo-404976.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 #showcase-blog {
 	height: 50vh;
@@ -224,6 +284,16 @@ a:focus, a:hover {
 }
 .contact-header {
 	margin: 70px 0px 30px 0px;
+}
+
+.img-responsive{
+	width: 400px;
+	height: auto;
+	transition: all: 0.5s ease;
+}
+
+.img-responsive:hover {
+	transform: scale(1.5);
 }
 
 /*helper clases*/
@@ -428,6 +498,25 @@ footer p {
 }
 
 /*einde horizontol scroll pagina*/
+.certificate-wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.certificate-wrapper a {
+	display: flex;
+	flex: 0 1 30%;
+	width: 30%;
+	/*margin-right: 16px;;*/
+}
+
+.certificaat {
+	width: 100%;
+	height: 100%;
+	cursor: hand;
+}
 
 
 /* Extra Small Devices, Phones */
