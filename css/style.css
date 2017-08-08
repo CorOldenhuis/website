@@ -283,7 +283,7 @@ a:focus, a:hover {
 }
 
 .img-responsive{
-	width: 400px;
+	width: 100px;
 	height: auto;
 	transition: all: 0.5s ease;
 }
@@ -291,6 +291,24 @@ a:focus, a:hover {
 .img-responsive:hover {
 	transform: scale(1.5);
 }
+.img-responsive1{
+	width: 400px;
+	height: auto;
+	transition: all: 0.5s ease;
+}
+
+.img-responsive1:hover {
+	transform: scale(1.2);
+}
+.img-responsive2{
+	width: 300px;
+	height: auto;
+}
+.img-responsive3{
+	width: 400px;
+	height: auto;
+}
+
 
 /*helper clases*/
 
